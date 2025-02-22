@@ -1,0 +1,25 @@
+{
+  "name": "twitch-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^8.5.0",
+    "@twurple/api": "^7.2.1",
+    "@twurple/auth": "^7.2.1",
+    "@twurple/chat": "^7.2.1",
+    "@twurple/eventsub-ws": "^7.2.1",
+    "dotenv": "^16.4.7",
+    "franc": "^6.2.0",
+    "node-fetch": "^3.3.2",
+    "tmi.js": "^1.8.5"
+  }
+}
